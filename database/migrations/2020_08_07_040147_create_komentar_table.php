@@ -20,7 +20,7 @@ class CreateKomentarTable extends Migration
             $table->foreign('id_jawaban')->references('id')->on('jawaban');
             $table->longText('isi');
             $table->timestamps();
-            $table->date_create('tanggal_komentar');
+            $table->date('tanggal');
         });
     }
 
