@@ -15,11 +15,5 @@ Route::get('/', function () {
     return view('route');
 });
 
-Route::get('/master', function () {
-    return view('master');
-});
 
-
-Route::get('/data-tables', function () {
-    return view('data-tables');
-});
+Route::get('/data-tables','DatasController@dataku');

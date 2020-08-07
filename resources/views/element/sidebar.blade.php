@@ -26,10 +26,10 @@
 
           </li>
           <li class="nav-item">
-            <a href="../widgets.html" class="nav-link">
+            <a href="/data-tables" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Widgets
+                Data tables
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>

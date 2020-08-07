@@ -1,6 +1,6 @@
 @extends('master')
 @section('table')
-
+<div>
 <table class="table table-bordered">
   <thead>
     <tr>
@@ -53,5 +53,6 @@
     </tr>
   </tbody>
 </table>
+</div>
 
 @endsection
